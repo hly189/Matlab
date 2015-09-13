@@ -1,0 +1,8 @@
+function C=Cauchy(x,y)
+
+C=zeros(length(x));
+for i=1:length(x)
+    for j=1:length(y)
+        C(i,j)=1/(x(i)+y(j));
+    end
+end
