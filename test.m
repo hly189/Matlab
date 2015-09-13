@@ -1,4 +1,4 @@
-%This file sets the test function for Quadrature formula in programming.m file 
+%This file can run the test function for Quadrature formula in programming.m file 
 
 %Set the test function. 
 f=@(x) 1/(6 - 5*cos(x));
